@@ -35,6 +35,6 @@ public class TboTools_Debug {
         
         int line = stackTraceElements[2].getLineNumber();
     
-        System.out.println(TboTools_Time.getTime() + " : " + app + " -> " + classe + " -> " + method + "() : (L" + line + ") " + print);
+        System.out.println(net.ddns.ksuto.tools.TboTools_Time.getTime() + " : " + app + " -> " + classe + " -> " + method + "() : (L" + line + ") " + print);
     }
 }
