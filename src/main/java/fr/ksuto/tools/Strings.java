@@ -1,9 +1,9 @@
-package net.ddns.ksuto.tools;
+package fr.ksuto.tools;
 
 /**
  * Created by thomas.bouchardon on 24/10/2016!
  */
-public class TBoTools_Strings {
+public class Strings {
     
     public static String toTitleCase(String givenString) {
         

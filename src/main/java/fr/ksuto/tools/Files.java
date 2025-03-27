@@ -1,4 +1,4 @@
-package net.ddns.ksuto.tools;
+package fr.ksuto.tools;
 
 import java.awt.*;
 import java.io.File;
@@ -7,7 +7,7 @@ import java.io.IOException;
 /**
  * Created by thomas.bouchardon on 24/10/2016!
  */
-public class TBoTools_Files {
+public class Files {
     
     public static boolean moveFileTo(File oldFile, File newFile, boolean overWrite) {
         

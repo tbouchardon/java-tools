@@ -2,7 +2,7 @@
   <artifact type="jar" name="tools">
     <output-path>$PROJECT_DIR$/out/artifacts/tools</output-path>
     <root id="archive" name="tools.jar">
-      <element id="module-output" name="TBoTools" />
+      <element id="module-output" name="Tools" />
     </root>
   </artifact>
 </component>

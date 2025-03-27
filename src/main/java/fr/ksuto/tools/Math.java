@@ -1,9 +1,9 @@
-package net.ddns.ksuto.tools;
+package fr.ksuto.tools;
 
 /**
  * Created by thomas.bouchardon on 24/10/2016!
  */
-public class TBoTools_Math {
+public class Math {
     
     public static double sygmoid(double x) {
         
@@ -13,7 +13,7 @@ public class TBoTools_Math {
         
         double y;
         
-        y = 1 / (1 + Math.pow(Math.E, x));
+        y = 1 / (1 + java.lang.Math.pow(java.lang.Math.E, x));
         
         return y;
     }

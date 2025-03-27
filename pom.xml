@@ -4,9 +4,10 @@
         http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>net.ddns.ksuto</groupId>
+    <groupId>fr.ksuto</groupId>
     <artifactId>tools</artifactId>
-    <version>1.0-RELEASE</version>
+    <packaging>jar</packaging>
+    <version>1.1</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -16,27 +17,27 @@
         <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.3</version>
+                <version>3.8.1</version>
                 <configuration>
-                    <compilerArgument>-Xlint:all</compilerArgument>
-                    <showWarnings>true</showWarnings>
+                    <!--                    <compilerArgument>-Xlint:all</compilerArgument>-->
+                    <!--                    <showWarnings>true</showWarnings>-->
                     <showDeprecation>true</showDeprecation>
-                    <source>1.8</source>
-                    <target>1.8</target>
+                    <source>8</source>
+                    <target>8</target>
                 </configuration>
             </plugin>
         </plugins>
     </build>
 
-    <distributionManagement>
-        <repository>
-            <id>google-drive-repository</id>
-            <url>file://${user.home}/google drive/maven-repository/mvn-releases</url>
-        </repository>
-        <snapshotRepository>
-            <id>google-drive-snapshot</id>
-            <url>file://${user.home}/google drive/maven-repository/mvn-snapshots</url>
-        </snapshotRepository>
-    </distributionManagement>
+    <!--    <distributionManagement>-->
+    <!--        <repository>-->
+    <!--            <id>google-drive-repository</id>-->
+    <!--            <url>file://${user.home}/google drive/maven-repository/mvn-releases</url>-->
+    <!--        </repository>-->
+    <!--        <snapshotRepository>-->
+    <!--            <id>google-drive-snapshot</id>-->
+    <!--            <url>file://${user.home}/google drive/maven-repository/mvn-snapshots</url>-->
+    <!--        </snapshotRepository>-->
+    <!--    </distributionManagement>-->
 
 </project>

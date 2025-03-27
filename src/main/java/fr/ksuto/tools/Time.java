@@ -1,4 +1,4 @@
-package net.ddns.ksuto.tools;
+package fr.ksuto.tools;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -7,7 +7,7 @@ import java.util.Locale;
 /**
  * Created by thomas.bouchardon on 16/03/2017!
  */
-public class TboTools_Time {
+public class Time {
     
     public static String getTime() {
         
